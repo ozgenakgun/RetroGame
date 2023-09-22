@@ -1,0 +1,74 @@
+[
+    {
+        "categoryTitle": "Library",
+        "categoryID": "001",
+        "categoryComplete": false,
+        "categoryCompletionDate": null,
+        "tasks": [
+            {
+                "taskName": "Use the book search system",
+                "taskID": "001-001",
+                "taskDesc": "Go to the library and use the search system in the library to find Math Books. Tell the librarian where the book is located.",
+                "taskLoc": "Library",
+                "taskCompletionDate": null,
+                "taskComplete": false
+            },
+            {
+                "taskName": "Check out a book",
+                "taskID": "001-002",
+                "taskDesc": "Check out any book of your liking, and tell the librarian you are part of the orientation afterwards.",
+                "taskLoc": "Library",
+                "taskCompletionDate": null,
+                "taskComplete": false
+            },
+            {
+                "taskName": "Return a book",
+                "taskID": "001-003",
+                "taskDesc": "Return a book that you have checked out before the due date. Tell the librarian you are part of the orientation afterwards.",
+                "taskLoc": "a",
+                "taskCompletionDate": null,
+                "taskComplete": false
+            }
+        ]
+    },
+    {
+        "categoryTitle": "Enrolment Services",
+        "categoryID": "002",
+        "categoryComplete": false,
+        "categoryCompletionDate": null,
+        "tasks": [
+            {
+                "taskName": "Visit enrolment services",
+                "taskID": "002-001",
+                "taskDesc": "Go to enrolment services and ask the staff for an information booklet.",
+                "taskLoc": "Enrolment Services",
+                "taskCompletionDate": null,
+                "taskComplete": false
+            },
+            {
+                "taskName": "Get Course Planning Support",
+                "taskID": "002-002",
+                "taskDesc": "Schedule Course Planning Support either in person or online. Afterwards tell the staff member you are part of the orientation.",
+                "taskLoc": "Enrolment Services or Online",
+                "taskCompletionDate": null,
+                "taskComplete": false
+            },
+            {
+                "taskName": "Learn How to Drop Courses",
+                "taskID": "002-003",
+                "taskDesc": "Look through the information booklet and find out the last date to drop courses. Tell this information to the nearest orientation staff.",
+                "taskLoc": "Anywhere",
+                "taskCompletionDate": null,
+                "taskComplete": false
+            },
+            {
+                "taskName": "Learn How to Waitlist",
+                "taskID": "002-004",
+                "taskDesc": "Look through the orientation booklet and read about waitlisting. Email the waitlisting procedure to your orientation coordinator.",
+                "taskLoc": "Online",
+                "taskCompletionDate": null,
+                "taskComplete": false
+            }
+        ]
+    }
+]

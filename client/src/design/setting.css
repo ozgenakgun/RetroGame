@@ -1,0 +1,45 @@
+#settingheader {
+    text-align: center;
+    font-size: min(8.5vw, 8.5vh);
+    margin-top: 7vh;
+}
+
+#changepwdheader {
+    text-align: center;
+    font-size: min(8.5vw, 60px);
+    margin-top: 8vh;
+}
+
+
+#settingForm {
+    width: fit-content;
+    margin: 6vh auto 1vh auto;
+}
+
+#settingForm > label {
+    font-size: min(6.6vw, 50px);
+}
+
+#settingForm > input {
+    font-size: min(7.5vw, 7.5vh);
+    height: fit-content;
+    width: min(60vw, 600px);
+    margin-bottom: max(3.5vh, 3,5vw);
+}
+
+#settingbtn1 {
+    display: block;
+    margin: 5vh auto 2vh auto;
+    margin-top: max(1.3vh, 1.3vw);
+    font-size: min(7vw, 60px);
+}
+
+#settingbtn2 {
+    display: block;
+    margin: 0 auto;
+    margin-top: 4vh;
+    font-size: min(7vw, 60px);
+}
+
+
+

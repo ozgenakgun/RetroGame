@@ -1,0 +1,21 @@
+#tlheader {
+    text-align: center;
+    font-size: min(8.8vw, 90px);
+    margin-top: 7vh;
+    margin-bottom: 7vh;
+}
+
+.taskListBtn {
+    display: block;
+    margin: 4vh auto;
+    margin-top: 1.3vh;
+    font-size: min(6vw, 50px);
+    width: min(70vw, 1000px);
+    height: 15vh;
+}
+
+#taskContainer {
+    height: 60vh;
+    overflow-y: scroll;
+    border: none;
+}

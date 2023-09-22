@@ -1,0 +1,37 @@
+[
+    {
+        "taskID" : "001-001",
+        "option" : "shirt",
+        "awardID" : "1"
+    },
+    {
+        "taskID" : "001-002",
+        "option" : "pants",
+        "awardID" : "1"
+    },
+    {
+        "taskID" : "001-003",
+        "option" : "shirt",
+        "awardID" : "2"
+    },
+    {
+        "taskID" : "002-001",
+        "option" : "pants",
+        "awardID" : "2"
+    },
+    {
+        "taskID" : "002-002",
+        "option" : "shirt",
+        "awardID" : "3"
+    },
+    {
+        "taskID" : "002-003",
+        "option" : "pants",
+        "awardID" : "3"
+    },
+    {
+        "taskID" : "002-004",
+        "option" : "shirt",
+        "awardID" : "4"
+    }
+]

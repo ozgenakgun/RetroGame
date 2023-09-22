@@ -1,0 +1,65 @@
+/* common settings */
+body {
+  background-image: url("./resources/bgImage.jpg");
+  background-repeat: no-repeat;
+  background-size: 100vw 100vh;
+  background-attachment: fixed;
+}
+@font-face {
+  font-family: 'pixel';
+  src: URL('./resources/pixel.ttf') format('truetype');
+}
+* {
+  font-family: 'pixel';
+  text-transform: uppercase;
+  text-decoration: none;
+}
+input {
+  font-family:Arial, Helvetica, sans-serif;
+  text-transform: none;
+}
+textarea {
+  font-family:Arial, Helvetica, sans-serif;
+  text-transform: none;
+}
+.text {
+  color: white;
+  background-color: black;
+  padding: 0.4vh 2.7vw;
+}
+#backArrow {
+  position: absolute;
+  top: 6vh;
+  left: 1vw;
+  height: min(16vw, 190px);
+}
+#backArrow_none {
+  position: absolute;
+  top: 1.5vh;
+  height: min(15vw, 190px);
+  right: 1vw;
+  visibility: hidden;
+}
+button {
+  padding: 1.7vh 4vw;
+  border-radius: 1px;
+  font-weight: bold;
+  border: none;
+  color: white;
+  background-color: rgb(17, 103, 188);
+  box-shadow: 0.4vh 0.4vh 0vh 0.4vh grey;
+}
+.alert-danger {
+  margin: 0.5rem 0;
+  background-color: red;
+  color: #000;
+}
+.alert-success {
+  margin: 0.5rem 0;
+  background-color: rgb(38, 221, 38);
+  color: #000;
+}
+
+#completedTask {
+  background-color: rgb(69, 182, 69);
+}

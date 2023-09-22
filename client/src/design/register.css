@@ -1,0 +1,29 @@
+#registerTitle {
+    font-size: min(9vw, 80px);
+    margin-top: 5.5vh;
+    text-align: center;
+    margin-left: 0.5vw;
+}
+
+#registerForm {
+    width: fit-content;
+    margin: 5vh auto 1vh auto;
+}
+
+#registerForm > label {
+    font-size: min(6.7vw, 50px);
+}
+
+#registerForm > input {
+    font-size: min(6.5vw, 50px);
+    height: fit-content;
+    width: min(66vw, 700px);
+    margin-bottom: 1.7vh;
+}
+
+#registerButn {
+    display: block;
+    margin: 0 auto;
+    margin-top: 1.3vh;
+    font-size: min(7vw, 70px);
+}

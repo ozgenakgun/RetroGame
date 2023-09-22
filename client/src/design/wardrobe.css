@@ -1,0 +1,40 @@
+#wardrobeTitle {
+    color: white;
+    background-color: black;
+    font-size: min(12vw, 80px);
+    margin: auto;
+    width: fit-content;
+    height: fit-content;
+    padding: .7vh 2vw 0.5vh 3.8vw;
+    grid-row: 1/2;
+    margin-top: 2vh;
+    margin-bottom: 1.7vh;
+}
+
+#bgTable {
+    background-image: url("../resources/wardrobe.png");
+    background-size: auto 65vh;
+    background-position: top center;
+    background-repeat: no-repeat;
+    height: 65vh;
+    border: 1px solid transparent;
+}
+
+#wardrobeTable {
+    margin: 7vh 15.5vw 0 15.5vw;
+    height: 48.8vh;
+    overflow-y: scroll;
+}
+
+.wardrobeItem {
+    display: table-cell;
+    margin: 3.5vh auto 8vh auto;
+    height: 18vh;
+}
+
+#wardrobeBtn {
+    display: block;
+    margin: 0 auto;
+    margin-top: 1.5vh;
+    font-size: min(5.3vw, 50px);
+}

@@ -1,0 +1,114 @@
+#adminWrapper {   
+    background-image: none;
+    background-color: white;
+    color: grey;
+    font-family: Arial, Helvetica, sans-serif; 
+    width: 97%;
+    height: 100%;
+    display: block;
+    margin: 20px auto;
+    box-shadow: 5px 5px 5px black;
+}
+
+#head
+{   
+    background-color: #000033;
+    color: white;
+    font-size: 35px;
+    text-align: center;
+    padding: 50px 30px 30px 30px;
+    height: 60px;
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to bottom, #000033,  #11567a, #90C7E3); 
+}
+
+#second 
+{  
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0%;
+    font-size: 30px;
+    background-color: #7ac2e6;
+    color: white;
+    text-align: center;
+    opacity: 0.9;
+    padding-bottom: 2%;
+}
+
+#adminTable
+{
+    border: 1px solid black;
+    width: 100%;
+    padding: 20px 40px 20px 10px;
+}
+
+#adminTable > tbody > tr > th {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    height: 30px;
+}
+
+#adminTable > tbody > tr > td {
+    height: fit-content;
+}
+
+#adminTable > tbody > tr > td > input {
+    font-family: Arial, Helvetica, sans-serif;
+    height: 23px;
+    width: 200px;
+    font-size: 18px;
+    text-align: center;
+    display: block;
+    margin: 10px auto;
+}
+
+#adminTable > tbody > tr > td > select {
+    font-family: Arial, Helvetica, sans-serif;
+    height: 23px;
+    width: 80px;
+    font-size: 15px;
+    text-align: center;
+    display: block;
+    margin: 10px auto;
+}
+
+#adminButton {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    padding: 7px 17px;
+    width: 100px;
+    display: block;
+    margin: 10px auto;
+    box-shadow: none;
+}
+
+#taskAppendix {
+    position: absolute;
+    bottom: 60px;
+    width: 40%;
+    left: 30%;
+    background-color: white;
+    padding: 20px;
+}
+
+#taskAppendix > tbody > tr > th {
+    border: 1px black solid;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+#taskAppendix > tbody > tr > td {
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: none;
+    font-size: 18px;
+    padding: 10px 0px 0px 10px;
+}
+
+#adminLogout {
+    float:right;
+    margin-right: 2vw;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-top: 10px;
+}
